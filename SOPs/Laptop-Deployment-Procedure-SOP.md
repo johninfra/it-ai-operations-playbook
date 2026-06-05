@@ -1,4 +1,4 @@
-# Laptop Deployment Procedure
+# Laptop Deployment Procedure SOP
 
 ## Document Information
 
