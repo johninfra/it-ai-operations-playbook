@@ -93,14 +93,6 @@ This repository demonstrates practical applications of AI in IT operations, help
 ```text
 IT-AI-Operations-Playbook/
 │
-├── SOPs/
-│   ├── User-Account-Provisioning-SOP.md
-│   ├── Password-Reset-SOP.md
-│   ├── Account-Lockout-Resolution-SOP.md
-│   ├── Laptop-Deployment-Procedure.md
-│   ├── VPN-Configuration-SOP.md
-│   └── README.md
-│
 ├── AI-Workflows/
 │   ├── AI-Assisted-Ticket-Triage.md
 │   ├── AI-Root-Cause-Analysis.md
@@ -119,7 +111,15 @@ IT-AI-Operations-Playbook/
 │   ├── Active-Directory-User-Creation-Automation.md
 │   ├── Password-Expiration-Notification-Automation.md
 │   ├── Ticket-Routing-Automation.md
-│   ├── Security-Alert-Automation.md
+│   └── Security-Alert-Automation.md
+│
+├── SOPs/
+│   ├── User-Account-Provisioning-SOP.md
+│   ├── Password-Reset-SOP.md
+│   ├── Account-Lockout-Resolution-SOP.md
+│   ├── Laptop-Deployment-Procedure.md
+│   ├── VPN-Configuration-SOP.md
+│   └── README.md
 │
 └── README.md
 ```
