@@ -70,6 +70,7 @@ This repository demonstrates practical applications of AI in IT operations, help
 
 # Tools & Technologies
 
+- Claude
 - ChatGPT
 - Microsoft 365
 - Active Directory
