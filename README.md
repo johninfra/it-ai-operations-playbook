@@ -75,11 +75,6 @@ IT-AI-Operations-Playbook/
 │
 ├── SOPs/
 ├── AI-Workflows/
-├── Incident-Response/
-├── Help-Desk/
-├── Cybersecurity/
-├── Documentation/
-├── Templates/
 └── Automation/
 ```
 
