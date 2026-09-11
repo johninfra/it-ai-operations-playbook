@@ -103,6 +103,7 @@ IT-AI-Operations-Playbook/
 │   ├── AI-Incident-Summarization.md
 │   ├── AI-Documentation-Generator.md
 │   ├── AI-Knowledge-Base-Creation.md
+│   ├── AI-Prompt-Injection-Defense.md
 │   ├── AI-Research-Workflow.md
 │   ├── AI-Prompt-Library.md
 │   └── README.md
