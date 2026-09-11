@@ -100,6 +100,7 @@ Examples:
 - Incident summaries
 - Security investigations
 - Vulnerability reporting
+- Prompt injection defense
 
 ---
 
@@ -130,6 +131,7 @@ AI-Workflows/
 ├── AI-Help-Desk-Assistant.md
 ├── AI-Troubleshooting-Workflow.md
 ├── AI-Research-Workflow.md
+├── AI-Prompt-Injection-Defense.md
 └── AI-Prompt-Library.md
 ```
 
@@ -218,167 +220,29 @@ Analyze:
 Potential Root Causes:
 
 1. DNS failures
-2. SMB connectivity issues
-3. Group Policy processing delays
-4. File server resource constraints
+2. Network latency
+3. Authentication issues
+4. File server resource exhaustion
 ```
-
-### Benefits
-
-- Faster troubleshooting
-- Improved accuracy
-- Better documentation
 
 ---
 
 # Featured Workflow 3
 
-## AI Documentation Generator
+## AI Prompt Injection Defense
 
 ### Purpose
 
-Generate standardized technical documentation.
+Reduce the risk that malicious instructions embedded in webpages, emails, documents, tickets, source code, or other retrieved content can manipulate an AI-enabled workflow.
 
-### Examples
+### Core Controls
 
-Generate:
+- Treat retrieved content as untrusted data
+- Separate authorized user instructions from external content
+- Apply least privilege to connected tools
+- Require human approval for sensitive actions
+- Protect credentials and secrets
+- Validate tool calls before execution
+- Test direct and indirect prompt injection scenarios
 
-- SOPs
-- Runbooks
-- Knowledge Base Articles
-- Incident Reports
-- Change Requests
-
-### Example Input
-
-```text
-Create an SOP for resetting user passwords in Active Directory.
-```
-
-### Example Output
-
-Structured enterprise documentation with:
-
-- Purpose
-- Scope
-- Procedure
-- Validation
-- Escalation
-
----
-
-# Featured Workflow 4
-
-## AI Security Investigation Assistant
-
-### Purpose
-
-Assist analysts during security investigations.
-
-### Input Sources
-
-- SIEM alerts
-- Event Viewer logs
-- Firewall logs
-- VPN logs
-- Endpoint telemetry
-
-### AI Tasks
-
-- Identify suspicious activity
-- Summarize findings
-- Recommend investigation steps
-- Produce incident summaries
-
-### Example Use Case
-
-```text
-Multiple failed login attempts from foreign IP addresses.
-```
-
-### AI Output
-
-```text
-Potential brute force activity detected.
-
-Recommendations:
-
-1. Lock affected accounts
-2. Review authentication logs
-3. Verify MFA enforcement
-4. Block malicious IP addresses
-```
-
----
-
-# Featured Workflow 5
-
-## AI Knowledge Base Creation
-
-### Purpose
-
-Convert resolved tickets into reusable knowledge articles.
-
-### Process
-
-1. Review resolved ticket
-2. Extract root cause
-3. Extract resolution
-4. Generate KB article
-5. Publish article
-
-### Benefits
-
-- Reduces repeat tickets
-- Improves self service support
-- Builds organizational knowledge
-
----
-
-# AI Tools
-
-This repository focuses on practical usage of:
-
-- ChatGPT
-- Microsoft Copilot
-- GitHub Copilot
-- Claude
-- Gemini
-- Perplexity
-
----
-
-# Skills Demonstrated
-
-- AI Operations
-- Prompt Engineering
-- IT Operations
-- Technical Documentation
-- Incident Management
-- Knowledge Management
-- Cybersecurity Operations
-- Process Optimization
-- Workflow Automation
-
----
-
-# Future Enhancements
-
-Planned additions include:
-
-- AI driven incident response workflows
-- AI powered SOC operations
-- AI based compliance reporting
-- Automated knowledge base generation
-- AI assisted change management
-- AI operations metrics and reporting
-
----
-
-# Author
-
-**John Tyler**
-
-IT Support | Cybersecurity | AI Operations
-
-This repository demonstrates practical applications of artificial intelligence within modern IT operations, help desk environments, cybersecurity workflows, and enterprise support organizations.
+See [AI-Prompt-Injection-Defense.md](./AI-Prompt-Injection-Defense.md) for the full workflow and testing checklist.
